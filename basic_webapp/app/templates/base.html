@@ -1,0 +1,12 @@
+<html>
+    <head>
+        <title>MY APP</title>
+    </head>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/styles.css') }}">
+    <script type="text/javascript" src="{{ url_for('static', filename='js/scripts.js') }}"></script>
+    <body>
+        {% block content %}
+            
+        {% endblock content %} 
+    </body>
+</html>
